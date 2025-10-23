@@ -2,6 +2,20 @@
 
 A **Truth and Dare** game for Android using **Java** and **XML** in **Android Studio**. The game features a spinning bottle animation that randomly selects a player when tapped.
 
+# ⬇️ How to Download 
+
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <td style="width:25%; padding:4px;">
+      <img src="./images/d1.jpeg" alt="Photo 1" style="width:100%; height:auto;">
+    </td>
+    <td style="width:25%; padding:4px;">
+      <img src="./images/d2.jpeg" alt="Photo 2" style="width:100%; height:auto;">
+    </td>
+  </tr>
+</table>
+
+
 ## 🚀 Features
 - 🎡 **Fast Bottle Spin** – Spins quickly in **1.5 seconds**.
 - 🔄 **Smooth Animation** – Uses `RotateAnimation` for fluid movement.
