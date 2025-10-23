@@ -24,7 +24,6 @@ A **Truth and Dare** game for Android using **Java** and **XML** in **Android St
 ## ⚙️ Setup & Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/Tarekuzjaman0/TruthDare.git
-
+   git clone https://github.com/TirthChapla/truthNdare
 
 
