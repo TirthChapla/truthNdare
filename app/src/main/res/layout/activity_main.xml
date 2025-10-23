@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spin the Bottle"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <!-- Container for player names BEHIND the bottle -->
+    <RelativeLayout
+        android:id="@+id/playerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="16dp" />
+
+    <!-- Centered bottle ABOVE player container -->
+    <ImageView
+        android:id="@+id/bottle"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/wine"
+        android:contentDescription="Bottle" />
+
+    <!-- Result Text -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottle"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <!-- Truth, Dare, and NHIE Buttons at bottom -->
+    <Button
+        android:id="@+id/truthButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Truth"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/dareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dare"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/nhieButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Never Have I Ever"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:visibility="gone" />
+
+</RelativeLayout>
