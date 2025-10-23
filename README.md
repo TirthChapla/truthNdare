@@ -10,16 +10,27 @@ A **Truth and Dare** game for Android using **Java** and **XML** in **Android St
 - 📱 **Edge-to-Edge UI** – Modern Android UI with **EdgeToEdge** mode.
 
 ## 🎮 How It Works
-1. Tap the **bottle** to start spinning.
-2. The bottle rotates randomly and stops after **1.5 seconds**.
-3. A **random player** is selected based on the final bottle position.
-4. The selected player’s name appears on the screen.
-
+1. Enter the No of Players.
+2. Then Enter the Names of the Player
+3. Now spin the the Bottle.
+4. There are Options to select the Truth, Dare, Never Have I ever.
+   
 ## 🛠️ Tech Stack
 - **Java** – Android development.
 - **XML** – UI design.
 - **MediaPlayer** – For playing sound effects.
 - **RotateAnimation** – For smooth bottle rotation.
+- **API** - https://docs.truthordarebot.xyz
+
+
+<div style="display:flex; gap:8px; align-items:center; justify-content:flex-start;">
+  <img src="./images/p1.png" alt="Photo 1" style="max-width:23%; height:auto;">
+  <img src="./images/p2.png" alt="Photo 2" style="max-width:23%; height:auto;">
+  <img src="./images/p3.png" alt="Photo 3" style="max-width:23%; height:auto;">
+  <img src="./images/p4.png" alt="Photo 4" style="max-width:23%; height:auto;">
+</div>
+
+
 
 ## ⚙️ Setup & Installation
 1. Clone this repository:
