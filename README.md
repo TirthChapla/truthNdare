@@ -23,12 +23,24 @@ A **Truth and Dare** game for Android using **Java** and **XML** in **Android St
 - **API** - https://docs.truthordarebot.xyz
 
 
-<div style="display:flex; gap:8px; align-items:center; justify-content:flex-start;">
-  <img src="./images/p1.png" alt="Photo 1" style="max-width:23%; height:auto;">
-  <img src="./images/p2.png" alt="Photo 2" style="max-width:23%; height:auto;">
-  <img src="./images/p3.png" alt="Photo 3" style="max-width:23%; height:auto;">
-  <img src="./images/p4.png" alt="Photo 4" style="max-width:23%; height:auto;">
-</div>
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <td style="width:25%; padding:4px;">
+      <img src="./images/p1.jpeg" alt="Photo 1" style="width:100%; height:auto;">
+    </td>
+    <td style="width:25%; padding:4px;">
+      <img src="./images/p2.jpeg" alt="Photo 2" style="width:100%; height:auto;">
+    </td>
+    <td style="width:25%; padding:4px;">
+      <img src="./images/p3.jpeg" alt="Photo 3" style="width:100%; height:auto;">
+    </td>
+    <td style="width:25%; padding:4px;">
+      <img src="./images/p4.jpeg" alt="Photo 4" style="width:100%; height:auto;">
+    </td>
+  </tr>
+</table>
+
+
 
 
 
